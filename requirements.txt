@@ -1,0 +1,15 @@
+# Core requirements
+streamlit==1.32.0
+transformers==4.40.0
+nltk==3.8.1
+torch==2.2.1  # PyTorch backend for transformers
+
+# Supporting packages
+numpy==1.26.0  # Required by transformers
+tqdm==4.66.0  # Progress bars
+regex==2023.12.25  # Text processing
+sentencepiece==0.2.0  # Tokenization
+
+# Development extras (optional)
+pytest==8.0.0  # For testing
+black==24.2.0  # Code formatting
